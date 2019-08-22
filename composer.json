@@ -1,0 +1,27 @@
+{
+  "name": "orderchamp/orderchamp-api-php",
+  "description": "Orderchamp API client for PHP",
+  "homepage": "https://www.orderchamp.com",
+  "keywords": [
+    "orderchamp"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Orderchamp B.V.",
+      "email": "info@orderchamp.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Orderchamp\\Api\\": "src/"
+    }
+  }
+}
